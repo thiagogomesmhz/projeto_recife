@@ -3,8 +3,47 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(241, 160, 207); 
+    background: url(img/fundo_colorido.png);
     padding-bottom: 20px; 
+    color: white;    
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    background: url(img/fundo_colorido.png);
+    color: white;
+    margin-top: 30px;
+    
+}
+
+a{
+    text-decoration:none;
+    color: rgb(102, 99, 235);
+    padding-bottom: 10px;
+}
+
+.secao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.classe_p{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.rodape{
+    background-color: rgb(189, 211, 187);
+    height: 150px;
+    padding: 5px;
+}
+
+li {
+    display: flex;
     
 
 }
