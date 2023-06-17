@@ -6,6 +6,7 @@
     background: url(img/fundo_colorido.png);
     padding-bottom: 20px; 
     color: white;    
+    border-radius: 8px;
 
 }
 
@@ -15,7 +16,7 @@ h2{
     background: url(img/fundo_colorido.png);
     color: white;
     margin-top: 30px;
-    
+    border-radius: 8px;
 }
 
 a{
@@ -37,13 +38,28 @@ a{
 }
 
 .rodape{
-    background-color: rgb(189, 211, 187);
+    background-color: rgb(157, 214, 152);
     height: 150px;
     padding: 5px;
+    border-radius: 8px;
+
 }
 
 li {
-    display: flex;
+    display:inline;
+    margin: 0 0 0 15px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
     
 
+}
+
+.px{
+    margin-left: 280px;
+    margin-right: 280px;
+}
+
+.fundo{
+    background-color: rgb(209, 252, 237);
 }
